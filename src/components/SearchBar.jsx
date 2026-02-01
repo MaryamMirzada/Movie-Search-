@@ -10,7 +10,7 @@ export default function SearchBar({ searchText, setSearchText }) {
           <Search size={18} />
         </span>
         <input
-          type="text"
+          type="text" 
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
           placeholder="Search Movie"
